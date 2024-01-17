@@ -1,0 +1,69 @@
+.generic-info, .Aside ul {
+	margin: 0;
+	padding: 0 10px;
+	list-style-type: none;
+  }
+  
+  .generic-info li {
+	display: inline-block;
+	margin-right: 40px;
+	font-size: 16px;
+  }
+  
+  .menu {
+  display: flex;
+	justify-content: space-between;
+	background: #BCCCC8;
+	color: #FFF;
+	height: 40px;
+	padding-left: 18px;
+	border-radius: 25px;
+}
+
+.main-content{
+  display: flex;
+  width: 100%;
+  margin-top: 35px;
+  align-items: flex-start;
+  
+}
+.App{
+	margin: 1% 1%;
+}
+
+.menu a {
+	display: block;
+	line-height: 42px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.menu li a:hover {
+	transform: translateY(-1px);
+
+}
+
+  .data-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	gap: 10px;
+	margin-right: 35px;
+  width: 100%;
+}
+  
+  .data-box {
+	width: 80%;
+	padding: 20px;
+	background-color: #f0f0f0;
+	border-radius: 8px;
+	text-align: center;
+}
+
+Aside {
+  flex: 0 0 200px;
+  height: 500px;
+  background: #BCCCC8;
+  color: #FFF;
+  padding: 10px;
+  margin-right: 10px;
+}
